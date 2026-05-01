@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { api } from '../lib/api.js'
-import { useToast } from './App.jsx'
+import { useToast } from '../App.jsx'
 
 export default function ContactEditor() {
   const [items, setItems] = useState([])
